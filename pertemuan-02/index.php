@@ -27,8 +27,6 @@ $mahasiswa3 = new Mahasiswa(
 
 $produk = new Produk("Buku Pemrograman", 50000, 10);
 
-echo "<pre>";
-
 echo "=== DATA MAHASISWA ===\n\n";
 echo $mahasiswa1->info() . "\n\n";
 echo $mahasiswa2->info() . "\n\n";
@@ -41,4 +39,3 @@ echo "Stok: {$produk->stok}\n";
 echo "Total Nilai: Rp"
     . number_format($produk->totalNilai(), 0, ',', '.');
 
-echo "</pre>";
